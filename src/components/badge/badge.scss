@@ -1,0 +1,23 @@
+.badge {
+  border-radius: 8px;
+  min-width: 70px;
+  font-size: 14px;
+  text-align: center;
+  padding: 3px 0;
+  &--success {
+    background-color: #d2ffea;
+    color: #00c572;
+  }
+  &--info {
+    background-color: #d9dbff;
+    color: #005cc5;
+  }
+  &--warning {
+    background-color: #fff8e9;
+    color: #e68c00;
+  }
+  &--danger {
+    background-color: rgba(208, 2, 27, 0.1);
+    color: #c70226;
+  }
+}

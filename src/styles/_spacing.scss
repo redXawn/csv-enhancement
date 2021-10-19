@@ -1,0 +1,169 @@
+$index: 0 !default;
+
+@mixin loop-custom-margin-padding {
+  @while ($index <= 40) {
+    .margin-#{$index} {
+      margin: #{$index}px;
+    }
+    .margin-top-#{$index} {
+      margin-top: #{$index}px;
+    }
+
+    .margin-right-#{$index} {
+      margin-right: #{$index}px;
+    }
+
+    .margin-bottom-#{$index} {
+      margin-bottom: #{$index}px;
+    }
+
+    .margin-left-#{$index} {
+      margin-left: #{$index}px;
+    }
+
+    .padding-#{$index} {
+      padding: #{$index}px;
+    }
+
+    .padding-top-#{$index} {
+      padding-top: #{$index}px;
+    }
+
+    .padding-right-#{$index} {
+      padding-right: #{$index}px;
+    }
+
+    .padding-bottom-#{$index} {
+      padding-bottom: #{$index}px;
+    }
+
+    .padding-left-#{$index} {
+      padding-left: #{$index}px;
+    }
+
+    $index: $index + 5;
+  }
+}
+
+@include loop-custom-margin-padding;
+
+.ta--center {
+  text-align: center;
+}
+
+.margin-auto {
+  margin: auto;
+}
+.d--flex {
+  display: flex;
+}
+.j-content--start {
+  justify-content: flex-start;
+}
+.j-content--center {
+  justify-content: center;
+}
+.j-content--end {
+  justify-content: flex-end;
+}
+.j-content--space-between {
+  justify-content: space-between;
+}
+.j-content--space-around {
+  justify-content: space-around;
+}
+.a-item--start {
+  align-items: flex-start;
+}
+.a-item--center {
+  align-items: center;
+}
+.a-item--end {
+  align-items: flex-end;
+}
+.a-self--start {
+  align-self: flex-start;
+}
+.a-self--center {
+  align-self: center;
+}
+.a-self--end {
+  align-self: flex-end;
+}
+.f-direction--column {
+  flex-direction: column;
+}
+
+.p--relative {
+  position: relative;
+}
+.p--absolute {
+  position: absolute;
+}
+.p--sticky {
+  position: sticky;
+}
+.p--fixed {
+  position: fixed;
+}
+
+.w--5 {
+  width: 5%;
+}
+.w--10 {
+  width: 10%;
+}
+.w--15 {
+  width: 15%;
+}
+.w--20 {
+  width: 20%;
+}
+.w--25 {
+  width: 25%;
+}
+.w--30 {
+  width: 30%;
+}
+.w--35 {
+  width: 35%;
+}
+.w--40 {
+  width: 40%;
+}
+.w--45 {
+  width: 45%;
+}
+.w--50 {
+  width: 50%;
+}
+.w--55 {
+  width: 55%;
+}
+.w--60 {
+  width: 60%;
+}
+.w--65 {
+  width: 65%;
+}
+.w--70 {
+  width: 70%;
+}
+.w--75 {
+  width: 75%;
+}
+.w--80 {
+  width: 80%;
+}
+.w--85 {
+  width: 85%;
+}
+.w--90 {
+  width: 90%;
+}
+.w--95 {
+  width: 95%;
+}
+.w--100 {
+  width: 100%;
+}
